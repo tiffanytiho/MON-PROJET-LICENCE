@@ -1,0 +1,76 @@
+/* Réinitialisation des marges et des rembourrages par défaut */
+body, h1, h2, p, div, textarea, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour le conteneur global */
+.container {
+    margin: 20px auto; /* Centre le conteneur */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center; /* Centre le contenu à l'intérieur du conteneur */
+}
+
+/* Styles pour les formulaires */
+textarea[name="message"] {
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+input[type="file"], input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles pour le bouton Envoyer */
+.custom-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: #badac4;
+}
+
+.custom-button:active {
+    transform: scale(0.95); /* Réduit légèrement la taille du bouton au clic */
+}
+
+/* Styles pour la carte Google Maps */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Styles pour la géolocalisation */
+#geolocation {
+    margin-top: 10px;
+}
+
+/* Styles pour l'ajout de catégorie */
+#autres {
+    text-align: center; /* Centre le contenu à l'intérieur de la session */
+}
+
+h1 {
+    color: green;
+}

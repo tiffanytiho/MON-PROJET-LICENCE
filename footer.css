@@ -1,0 +1,59 @@
+/* Réinitialisation des marges et des rembourrages par défaut */
+body, h3, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333; /* Couleur de fond du pied de page (gris foncé) */
+    color: #fff; /* Couleur du texte du pied de page (blanc) */
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Styles pour la section du contenu du pied de page */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles pour la section de contact */
+.social-media {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+    margin: 0 20px;
+}
+
+/* Style pour les titres h3 */
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les liens de médias sociaux */
+a {
+    color: #28a745; /* Couleur verte pour les liens */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style pour les liens de médias sociaux au survol */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour la section du copyright */
+.copyright {
+    margin-top: 30px;
+}
+
+/* Styles pour le texte du copyright */
+p {
+    font-size: 18px;
+    opacity: 0.8;
+}
