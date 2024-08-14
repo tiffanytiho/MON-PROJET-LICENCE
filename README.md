@@ -1,2 +1,2 @@
-# MON-PROJET-LICENCE
-Mon projet de licence
+# MON-PROJET-PERSONNEL
+Mon projet personnel
